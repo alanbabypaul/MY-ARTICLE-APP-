@@ -1,0 +1,39 @@
+/* AboutUs.css */
+
+.about-us-page {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .about-us-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    border-radius: 0.5rem;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .button {
+    margin-top: 1.5rem;
+  }
+  

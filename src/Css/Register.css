@@ -1,0 +1,15 @@
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.body{
+    background-color: black;
+}
+
+.login-form{
+    background-color: #f0f0f0;
+  
+  background-size: 50px 50px;
+  min-height: 80vh;
+}

@@ -1,0 +1,81 @@
+/* NavBar.css */
+
+
+.bg {
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    color: #f0f0f0;
+    font-size: larger;
+    font-family: "Playfair Display", system-ui;
+  }
+  
+  .bg .navbar-brand {
+    color: #f0f0f0; 
+  }
+  
+  .bg .navbar-brand:hover {
+    color: #88cff5; 
+    border: 2px solid;
+    padding: 5px
+  }
+  
+ 
+   .Link {
+    color: #f0f0f0; 
+    text-decoration: none;
+  }
+  
+  .Link:hover {
+    color: #c9e5f5; 
+    border: 2px solid;
+    padding: 5px
+  }
+  
+  .Link.active {
+    color: red;
+  
+  }
+ 
+  
+  /* Style for form controls */
+  .bg .form-control {
+    background-color: #333; 
+    color: #f0f0f0; 
+    border: 1px solid #444; 
+  }
+  
+  .bg .form-control::placeholder {
+    color: #aaa; 
+  }
+  
+  .bg .btn-outline-success {
+    color: #f0f0f0; 
+    border-color: #f0f0f0; 
+  }
+  
+  .bg .btn-outline-success:hover {
+    background-color: #555;
+    border-color: #f0f0f0; 
+  }
+  
+@media (max-width: 768px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    
+  }
+}
+
+/* NavBar.css */
+@media (max-width: 767px) {
+  .Link {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+    
+  }
+  .navbar {
+    text-align: center;
+    
+  }
+
+
+}
